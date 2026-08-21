@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="266" viewBox="0 0 800 266">
+  <style>
+    text { font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace; }
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .cursor { animation: blink 1s steps(1) infinite }
+    @keyframes tchip0 { 0%,0% { opacity: 0 } 2%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip0 { animation: tchip0 12s ease-out infinite; }
+    @keyframes tchip1 { 0%,3% { opacity: 0 } 5%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip1 { animation: tchip1 12s ease-out infinite; }
+    @keyframes tchip2 { 0%,5% { opacity: 0 } 7%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip2 { animation: tchip2 12s ease-out infinite; }
+    @keyframes tchip3 { 0%,8% { opacity: 0 } 10%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip3 { animation: tchip3 12s ease-out infinite; }
+    @keyframes tchip4 { 0%,10% { opacity: 0 } 12%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip4 { animation: tchip4 12s ease-out infinite; }
+    @keyframes tchip5 { 0%,13% { opacity: 0 } 15%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip5 { animation: tchip5 12s ease-out infinite; }
+    @keyframes tchip6 { 0%,15% { opacity: 0 } 17%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip6 { animation: tchip6 12s ease-out infinite; }
+    @keyframes tchip7 { 0%,18% { opacity: 0 } 20%,92% { opacity: 1 } 97%,100% { opacity: 0 } }
+    .tchip7 { animation: tchip7 12s ease-out infinite; }
+  </style>
+  <rect width="100%" height="100%" fill="#0a0a0b" rx="14" ry="14"/>
+  
+  <rect x="0" y="0" width="800" height="28" fill="#0a0a0b" rx="14" ry="14"/>
+  <rect x="0" y="14" width="800" height="14" fill="#0a0a0b"/>
+  <line x1="0" y1="28" x2="800" y2="28" stroke="#5a5a64" stroke-width="0.5" stroke-opacity="0.4"/>
+  <g opacity="0.55">
+    <circle cx="22" cy="14" r="5.5" fill="#ff5f57"/>
+    <circle cx="40" cy="14" r="5.5" fill="#febc2e"/>
+    <circle cx="58" cy="14" r="5.5" fill="#28c840"/>
+  </g>
+  <text x="400" y="15" fill="#5a5a64" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle" dominant-baseline="middle">~/skills</text>
+
+  <!-- Command line -->
+  <text x="40" y="76.5" fill="#4ade80" font-size="14" dominant-baseline="middle">$</text>
+  <text x="62" y="76.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle">which --skills</text>
+
+  <!-- Output marker -->
+  <text x="40" y="99.5" fill="#5a5a64" font-size="14" dominant-baseline="middle">→</text>
+  <text x="62" y="99.5" fill="#5a5a64" font-size="14" dominant-baseline="middle">8 matches</text>
+
+  <!-- Chips -->
+  <text class="tchip0" x="62" y="138.5" fill="#4ade80" font-size="14" dominant-baseline="middle">[ Java ]</text>
+  <text class="tchip1" x="164" y="138.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle">[ C++ ]</text>
+  <text class="tchip2" x="252" y="138.5" fill="#4ade80" font-size="14" dominant-baseline="middle">[ Python ]</text>
+  <text class="tchip3" x="352" y="138.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle">[ JavaScript ]</text>
+  <text class="tchip4" x="480" y="138.5" fill="#4ade80" font-size="14" dominant-baseline="middle">[ React ]</text>
+  <text class="tchip5" x="580" y="138.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle">[ Node.js ]</text>
+  <text class="tchip6" x="62" y="173.5" fill="#e7e7ea" font-size="14" dominant-baseline="middle">[ FastAPI ]</text>
+  <text class="tchip7" x="180" y="173.5" fill="#4ade80" font-size="14" dominant-baseline="middle">[ MySQL ]</text>
+  
+
+  <!-- Trailing prompt + cursor -->
+  <text x="40" y="227.5" fill="#4ade80" font-size="14" dominant-baseline="middle">$</text>
+  <rect class="cursor" x="62" y="219" width="8" height="15" fill="#e7e7ea"/>
+</svg>

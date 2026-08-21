@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
+  <style>
+    text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; dominant-baseline: middle; }
+    @keyframes ln0 { 0%,0% { opacity: 0 } 4%,86% { opacity: 1 } 94%,100% { opacity: 0 } }
+    @keyframes ln1 { 0%,7% { opacity: 0 } 11%,86% { opacity: 1 } 94%,100% { opacity: 0 } }
+    @keyframes ln2 { 0%,14% { opacity: 0 } 18%,86% { opacity: 1 } 94%,100% { opacity: 0 } }
+    @keyframes ln3 { 0%,21% { opacity: 0 } 25%,86% { opacity: 1 } 94%,100% { opacity: 0 } }
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .ln0 { animation: ln0 12s ease-in-out infinite }
+    .ln1 { animation: ln1 12s ease-in-out infinite }
+    .ln2 { animation: ln2 12s ease-in-out infinite }
+    .ln3 { animation: ln3 12s ease-in-out infinite }
+  </style>
+  <rect width="100%" height="100%" fill="#0a0a0b" rx="14" ry="14"/>
+  <g opacity="0.5">
+    <circle cx="24" cy="24" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="24" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="24" r="6" fill="#28c840"/>
+  </g>
+  <text x="400" y="28" fill="#5a5a64" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">~ / signoff</text>
+  <g class="ln0" transform="translate(40 62)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">logout</text></g>
+  <g class="ln1" transform="translate(40 84)"><text fill="#5a5a64">[ </text><text x="14" fill="#4ade80">session.end</text><text x="100" fill="#5a5a64"> ]:</text><text x="128" font-size="13" fill="#e7e7ea">thanks for visiting - Shreyans Jain</text></g>
+  <g class="ln2" transform="translate(40 106)"><text x="0" fill="#5a5a64"># socials</text><g transform="translate(80 -6)"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#e7e7ea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></g><text x="96" fill="#e7e7ea">github.com/shreyansdev</text><g transform="translate(300 -6)"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="#e7e7ea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></g><text x="316" fill="#e7e7ea">linkedin.com/in/shreyansdev</text></g>
+  <g class="ln3" transform="translate(40 150)"><text fill="#4ade80">$</text><rect x="20" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: blink 1s steps(1) infinite" /></g>
+  <!-- ryme.md attribution: bash-comment-style credit, low-opacity bottom-right. -->
+  <text x="782" y="166" fill="#5a5a64" fill-opacity="0.5" font-family="ui-monospace, monospace" font-size="10" text-anchor="end"># made with ryme.md</text>
+</svg>
