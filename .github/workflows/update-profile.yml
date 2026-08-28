@@ -1,0 +1,47 @@
+﻿name: Update Profile SVGs
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Run automatically every 6 hours
+  workflow_dispatch:      # Allow manual trigger via GitHub Actions UI / gh cli
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update-svgs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run SVG stats updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_svgs.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No changes detected in SVG assets."
+          else
+            git commit -m "chore(stats): update profile SVG stats [skip ci]"
+            git push
+          fi
