@@ -39,9 +39,9 @@
   <g class="ln5" transform="translate(60 174)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">reviews</text><text x="120" fill="#e7e7ea">0</text><text x="200" fill="#5a5a64" fill-opacity="0.7">ytd</text></g>
   <g class="ln6" transform="translate(60 196)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">contribs</text><text x="120" fill="#e7e7ea">57</text><text x="200" fill="#5a5a64" fill-opacity="0.7">graphql</text></g>
   <g class="ln8" transform="translate(40 240)"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">top languages</text></g>
-  <g class="ln9" transform="translate(60 262)"><text fill="#3178c6">▮▮▮▮▮░░░░░</text><text x="120" fill="#e7e7ea">TypeScript</text><text x="200" fill="#5a5a64" fill-opacity="0.7">48.3%</text></g>
-  <g class="ln10" transform="translate(60 284)"><text fill="#f1e05a">▮▮▮░░░░░░░</text><text x="120" fill="#e7e7ea">JavaScript</text><text x="200" fill="#5a5a64" fill-opacity="0.7">27.6%</text></g>
-  <g class="ln11" transform="translate(60 306)"><text fill="#f34b7d">▮░░░░░░░░░</text><text x="120" fill="#e7e7ea">C++</text><text x="200" fill="#5a5a64" fill-opacity="0.7">8.4%</text></g>
+  <g class="ln9" transform="translate(60 262)"><text fill="#3178c6">▮▮▮▮▮░░░░░</text><text x="120" fill="#e7e7ea">TypeScript</text><text x="200" fill="#5a5a64" fill-opacity="0.7">48.1%</text></g>
+  <g class="ln10" transform="translate(60 284)"><text fill="#f1e05a">▮▮▮░░░░░░░</text><text x="120" fill="#e7e7ea">JavaScript</text><text x="200" fill="#5a5a64" fill-opacity="0.7">28.2%</text></g>
+  <g class="ln11" transform="translate(60 306)"><text fill="#f34b7d">▮░░░░░░░░░</text><text x="120" fill="#e7e7ea">C++</text><text x="200" fill="#5a5a64" fill-opacity="0.7">8.2%</text></g>
   <g class="ln13" transform="translate(40 350)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">ready</text><rect x="78" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: blink 1s steps(1) infinite"/></g>
   <text x="782" y="376" fill="#5a5a64" fill-opacity="0.5" font-family="ui-monospace, monospace" font-size="10" text-anchor="end">57 contributions · @shreyansdev</text>
 </svg>
